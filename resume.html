@@ -5,238 +5,131 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Resume</title>
-    <style>
-        .container {
-            /* background-color: aqua; */
-            max-width: 75%;
-            height: 800px;
-            margin: auto;
-            color: #1b2c64
-        }
-
-        .left-nav-bar {
-            /* background-color: white; */
-            width: 30%;
-            height: auto;
-            margin: 20px;
-            float: left;
-            font-family: Arial, Helvetica, sans-serif;
-
-        }
-
-        .profile-pic {
-            /* border: 2px solid black; */
-            height: 200px;
-            margin: 20px;
-
-        }
-
-        .photo img {
-            border-radius: 100px;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-
-        }
-
-        .photo-caption {
-            text-align: center;
-            padding: 5px;
-            margin-left: 30px;
-
-        }
-
-        .contact {
-            /* border: 2px solid black; */
-            height: 300px;
-            margin: 20px;
-            margin-top: 50px;
-
-
-        }
-
-        .contact i {
-            margin-left: 30px;
-
-        }
-
-        .left-nav-bar small {
-            font-weight: bold;
-        }
-
-        .contact span {
-            background-color: #427cff;
-            padding: 10px;
-            display: table;
-            margin: 0 auto;
-            margin-top: 50px;
-            border-radius: 10px;
-            ;
-        }
-
-        .contact span a {
-            text-decoration: none;
-            color: #ffffff;
-        }
-
-        .resume-content {
-            float: left;
-            /* background-color: red; */
-            margin: 20px;
-            margin-left: 0;
-            max-width: 61%;
-            height: auto;
-
-            font-family: Arial, Helvetica, sans-serif;
-
-        }
-
-        .summary,
-        .education {
-            /* background-color: #67ccfe; */
-            max-width: 100%;
-            height: 200px;
-        }
-
-        p {
-            text-align: justify;
-        }
-
-        .work-experience,
-        .education {
-            /* background-color: #67ccfe; */
-            line-height: 1.8;
-        }
-
-        .headding {
-            text-decoration-color: #427cff;
-
-        }
-
-        .sub-headding {
-            text-decoration: #427cff;
-            font-weight: bold;
-            display: inline;
-
-
-        }
-
-        .work-type {
-            padding: 1px 15px;
-            background-color: #d7fee0;
-            border-radius: 10px;
-            float: right;
-
-        }
-
-        .duration {
-            float: right;
-        }
-
-        i {
-            margin-right: 2px;
-
-        }
-
-        .company {
-            margin-right: 40px;
-        }
-    </style>
 </head>
 
 <body>
     <div class="container">
-        <div class="left-nav-bar">
-            <!--Profile picture-->
+        <div class="left-container">
             <div class="profile-pic">
                 <div class="photo">
-                    <img src="dp.jpg" alt="profile-picture" width="80px" height="80px" />
+                    <img src="dp.jpg" alt="profile-picture" width="150px" height="150px" />
                 </div>
                 <div class="photo-caption">
-                    <h2 class="headding">subash rajinikanth M</h2>
-                    <span class="sub-headding">Front End Developer</span>
-
+                    <span class="heading">subash rajinikanth Maniraja</span>
+                    <span class="sub-heading">Front End Developer</span>
                 </div>
-
             </div>
             <!--Profile description and contact-->
             <div class="contact">
-                <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                <small>subashrajinikanth@gmail.com</small>
-                <hr>
-                <i class="fa fa-map-marker" aria-hidden="true"></i>
-                <small>Chennai, Ind</small>
-                <hr>
-                <i class="fa fa-briefcase" aria-hidden="true"></i>
-                <small>Full Time</small>
-                <hr>
-                <i class="fa fa-user-circle-o" aria-hidden="true"></i>
-                <small>Sales and marketing</small>
-                <hr>
-                <span>
+                <div class="contact-line">
+                    <i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>
+                    <span>subash@gmail.com</span>
+                </div>
+                <div class="contact-line">
+                    <i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>
+                    <span>Chennai, Ind</span>
+                </div>
+                <div class="contact-line">
+                    <i class="fa fa-briefcase fa-fw" aria-hidden="true"></i>
+                    <span>Full Time</span>
+                </div>
+                <div class="contact-line">
+                    <i class="fa fa-user-circle-o fa-fw" aria-hidden="true"></i>
+                    <span>Sales and marketing</span>
+                </div>
+
+                <span class="download-resume">
                     <a href="#">Download Resume</a>
                 </span>
-
             </div>
-
         </div>
-        <div class="resume-content">
+        <div class="right-container">
             <div class="summary">
-                <h2 class="headding">Professional Summary</h2>
+                <span class="heading">Professional Summary</span>
                 <p> I am an experienced professional seeking an opportunity to use my
                     background in data analysis and market trend research. I am a dedicated
                     and detail-oriented marketing specialist looking for an opportunity to expand
-                    my professional skillset and help Company X grow.
+                    my professional skillset and help Company X grow.Receptionist with over 5 years'
+                    experience working in both the public and private sectors. Diplomatic, personable,
+                    and adept at managing sensitive situations.why would you even need to spend precious
+                    resume real estate on something that's seemingly redundant? After all, your resume includes
+                    the pertinent skills and qualifications.
                 </p>
             </div>
             <div class="work-experience">
-                <h2 class="headding">Work Experience</h2>
-                <span class="sub-headding">Senior Front End Developer</span>
-                <span class="work-type">Full Time</span><br>
-                <small class="company"><i class="fa fa-building-o" aria-hidden="true"></i>Apple Inc</small>
-                <small class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Chennai</small>
+                <span class="heading">Work Experience</span>
+                <div class="work">
+                    <div class="job">
+                        <span class="sub-heading">Senior Front End Developer</span>
+                        <span class="work-type">Full Time</span>
+                    </div>
+                    <div class="description">
+                        <span class="company"><i class="fa fa-building-o fa-fw" aria-hidden="true"></i>Apple Inc</span>
+                        <span class="location"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>Chennai</span>
+                        <span class="duration"> <i class="fa fa-calendar-check-o fa-fw" aria-hidden="true"></i>April 12,
+                            2020</span>
+                    </div>
 
-                <small class="duration"> <i class="fa fa-calendar-check-o" aria-hidden="true"></i>April 12, 2020</small>
-                <hr>
+                </div>
 
-                <!--work 2-->
-                <span class="sub-headding">Junior Front End Developer</span>
-                <span class="work-type">Full Time</span><br>
-                <small class="company"><i class="fa fa-building-o" aria-hidden="true"></i>Figma Inc</small>
-                <small class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>San fransisco</small>
-                <small class="duration"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>April 12, 2018</small>
-                <hr>
-                <!--work 3-->
-                <span class="sub-headding">Intern Developer</span>
-                <span class="work-type">Full Time</span><br>
-                <small class="company"><i class="fa fa-building-o" aria-hidden="true"></i>Microsoft</small>
-                <small class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>New york city</small>
-                <small class="duration"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>April 12, 2016</small>
-                <hr>
+                <div class="work">
+                    <div class="job">
+                        <span class="sub-heading">Junior Front End Developer</span>
+                        <span class="work-type">Full Time</span>
+                    </div>
+                    <div class="description">
+                        <span class="company"><i class="fa fa-building-o fa-fw" aria-hidden="true"></i>Figma Inc</span>
+                        <span class="location"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>San
+                            fransisco</span>
+                        <span class="duration"><i class="fa fa-calendar-check-o fa-fw" aria-hidden="true"></i>April 12,
+                            2018 - March 28, 2020</span>
+                    </div>
 
+
+                </div>
+                <div class="work">
+                    <div class="job">
+                        <span class="sub-heading">Intern Developer</span>
+                        <span class="work-type">Full Time</span>
+                    </div>
+                    <div class="description">
+                        <span class="company"><i class="fa fa-building-o fa-fw" aria-hidden="true"></i>Microsoft</span>
+                        <span class="location"><i class="fa fa-map-marker fa-fw" aria-hidden="true"></i>New york
+                            city</span>
+                        <span class="duration"><i class="fa fa-calendar-check-o fa-fw" aria-hidden="true"></i>April 12,
+                            2016 - July 12, 2018</span>
+                    </div>
+
+                </div>
             </div>
             <div class="education">
-                <h2 class="headding">Education</h2>
-                <span class="sub-headding">Masters in software engineering</span><br>
-                <small class="company"><i class="fa fa-graduation-cap" aria-hidden="true"></i></i>Anna
-                    University</small>
-                <small class="duration"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>Jan 12, 2014 - Dec 12,
-                    2016</small>
-                <hr>
+                <span class="heading">Education</span>
+                <div class="degree">
+                    <span class="sub-heading">Masters in software engineering</span>
+                    <div class="description">
+                        <span class="company"><i class="fa fa-graduation-cap fa-fw" aria-hidden="true"></i>Anna
+                            University</span>
+                        <span class="duration"><i class="fa fa-calendar-check-o fa-fw" aria-hidden="true"></i>Jan 12,
+                            2014 - Dec 12, 2016</span>
+                    </div>
 
-                <span class="sub-headding">Bacholers in software engineering</span><br>
-                <small class="company"><i class="fa fa-graduation-cap" aria-hidden="true"></i></i>Anna
-                    University</small>
-                <small class="duration"><i class="fa fa-calendar-check-o" aria-hidden="true"></i>Jan 12, 2012 - Dec 12,
-                    2014</small>
-                <hr>
+                </div>
+
+                <div class="degree">
+                    <span class="sub-heading">Bacholers in software engineering</span>
+                    <div class="description">
+                        <span class="company"><i class="fa fa-graduation-cap fa-fw" aria-hidden="true"></i>Anna
+                            University</span>
+                        <span class="duration"><i class="fa fa-calendar-check-o fa-fw" aria-hidden="true"></i>Jan 12,
+                            2012
+                            - Dec 12, 2014</span>
+                    </div>
+                </div>
             </div>
         </div>
-
-
-    </div>
 </body>
 
 </html>

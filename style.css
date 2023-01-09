@@ -1,0 +1,164 @@
+body {
+    font-family: 'Franklin Gothic Medium', sans-serif;
+}
+
+.container {
+    background-color: #ffffff;
+    width: 75%;
+    margin: auto;
+    color: #1b2c64
+}
+
+.left-container {
+    width: 30%;
+    height: auto;
+    float: left;
+    margin-left: 20px;
+}
+
+.profile-pic {
+    height: 250px;
+    margin-top: 20px;
+}
+
+.photo {
+    height: 160px;
+}
+
+.photo img {
+    border-radius: 100px;
+    display: block;
+    margin: auto;
+}
+
+.photo-caption {
+    text-align: center;
+}
+
+.contact {
+    height: 300px;
+    margin: 10px;
+    margin-top: 60px;
+    font-size: 14px;
+}
+
+.contact i {
+    margin-left: 20px;
+    color: #dcdfe9;
+
+}
+
+.contact span {
+    font-weight: 600;
+}
+
+.download-resume {
+    background-color: #427cff;
+    padding: 15px;
+    display: table;
+    margin: 50px 20px;
+    border-radius: 10px;
+
+}
+
+.download-resume a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.right-container {
+    float: left;
+    margin: 20px;
+    margin-left: 20px;
+    width: 63%;
+    height: auto;
+}
+
+.summary,
+.education {
+    width: 100%;
+    height: 250px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.3;
+}
+
+.work-experience {
+    width: 100%;
+    line-height: 1.5;
+}
+
+.education {
+    margin-top: 40px;
+    line-height: 1.5;
+}
+
+.heading {
+    text-decoration-color: #334680;
+    font-weight: bold;
+    font-size: 35px;
+    display: block;
+}
+
+.right-container .heading {
+    margin-bottom: 10px;
+}
+
+.photo-caption .sub-heading {
+    display: block;
+}
+
+.sub-heading {
+    text-decoration: #427cff;
+    display: inline;
+    font-size: 21px;
+}
+
+.education .sub-heading {
+    display: block;
+}
+
+.work-type {
+    padding: 5px 15px;
+    background-color: #d7fee0;
+    border-radius: 10px;
+    float: right;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+i {
+    margin-right: 5px;
+}
+
+.company,
+.location,
+.duration {
+    margin-right: 30px;
+    color: #dcdfe9;
+    font-size: 14px;
+
+}
+
+.duration {
+    float: right;
+    margin-right: 0px;
+}
+
+.degree,
+.work {
+    border-bottom: 2px solid #dcdfe9;
+    margin-bottom: 20px;
+}
+
+.contact-line {
+    border-bottom: 2px solid #dcdfe9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.description {
+    margin-bottom: 20px;
+}
